@@ -1,6 +1,6 @@
-# Cognitiv0AI
+# Bigquery Automation
 
-Este projeto é parte do processo para uma vaga de consultor na empresa CognitivoAI
+Este projeto foi uma automatização de data pipeline
 
 O objetivo do projeto é realizar um processamento de dados no software Apache Spark baseado em alguns requisitos:
 
@@ -31,7 +31,7 @@ Esse comando irá executar os arquivos na seguinte ordem:
 - fazer o carregamento do arquivo load.parquet na pasta output para a tabela no Bigquery terminando o processo ETL e disponibilizando para uso da equipe.
 - deletar o cluster criado para não incorrer em custos extras.
 
-O processo ETL resultou no caminho BUCKET => SPARK => BQ.
+O processo ETL resultou no caminho BUCKET => SPARK => BigQuery.
 
 o arquivo .sh também poderá ser feito na maquina local baixando o google cloud SDK, ou usando o próprio terminal dentro do console GCP.
 Ou no próprio windows da máquina local.
